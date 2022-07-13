@@ -1,0 +1,169 @@
+#menu{
+    background-size: cover;
+    text-align: center;
+    color: rgb(243, 243, 243);
+
+}
+#imgcabecera{
+    display: inline-block;
+
+}
+
+#lista{
+    display: inline-block; /* permite establecer un ancho y un alto fijo, respetando margenes, crea cajas que son de bloque y el linea simultanea */
+            color: white;/*Color de la letra*/
+            text-align: center;/*Alineacion del texto en el centro*/
+            padding: 14px 16px;/*Espacio entre las palabras*/
+            
+}
+
+#fondo{
+ background-image: url(https://universe.leagueoflegends.com/images/championsBackground.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;/*que se adapate al ancho del navegador*/
+}
+
+#footer1{
+    background-color: rgba(17, 17, 17, 0.959);
+    color:gray;
+    text-align: center;
+}
+
+#imggit{
+    width: 25px;
+    height: 25px;
+    
+    
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}
+
+
+  .card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 50px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height:50px;
+    --bs-card-color: ;
+    --bs-card-bg:0;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    min-width:50px;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    width:80%; height: 790%;
+    color: aliceblue;
+    text-align: center;
+}
+#kda {
+    background-image: url(https://w.wallhaven.cc/full/dg/wallhaven-dgvzjg.jpg) ;
+    position:center;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.button-container{
+    display:inline-block;
+    position:relative;
+    }
+    
+    #yasuo{
+        background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt41c476486b063ef8/60ee13df31f9ee2ab08a4dfe/Yasuo_0.jpg);
+        background-position: 87.9835% 31.3808%; 
+        opacity: 1;
+        display: flex;
+    
+    }
+
+
+    .card-body1 {
+        flex: 1 1 auto;
+        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+        color: var(--bs-card-color);
+        top: 100%;
+        position: relative;
+        
+    }
+    #kasia     
+    {background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/bltd8de2cd9f955bffc/60ee0e6b975ffd4ff25ec2ab/kaisa-splash.jpg);
+    background-position: 48.47930% 12.6523%;
+    width:100;
+    height:100;
+    opacity: 1;
+}
+
+#lulu    { background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt71009d4f4fabcf6f/60ee0f3fb898ee4eaeb6e6a7/Lulu_0.jpg);
+background-position: 78.6831% 24.1283%;
+opacity: 1;
+background-repeat: no-repeat;
+}
+
+#fizz {    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/bltf6341c794f5cefbd/60ee0d6494d70a1ef31237b5/Fizz_0.jpg);
+    background-position: 97.1199% 14.5050%;
+    opacity: 1;
+}
+#vex {    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt8f02a4d9f9fa875d/6140106a38fe802535067228/vex-splash.jpg);
+    background-position: 65.1042% 14.0977%;
+    opacity: 1;
+}
+#vi {
+    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt386aa1a09687ad91/60ee138c43739d6620a57392/Vi_0.jpg);
+    background-position: 76.214% 18.8285%;
+    opacity: 1;
+}
+#katarina {   
+     background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt3dafcae87ee7c45a/60ee0e8fa9af29474648beef/Katarina_0.jpg);
+    background-position: 67.6543% 49.6513%;
+    opacity: 1;}
+
+    #nunu {
+        background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt988c23cebcb14f78/60ee100866d52e63b8eb6ba7/nunu_new_splash.jpg);
+        background-position: 68.9583% 63.3913%;
+        opacity: 1;
+    }
+    #aurelio{
+        background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/bltac9e6a0df59a974e/60ee0b8743739d6620a572d8/AurelionSol_0.jpg);
+    background-position: 56.5432% 0.27894%;
+    opacity: 1;
+    }
+    #jinx {
+        background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt107f004fd12ef551/60ee0e5f8258b32d83974da8/Jinx_0.jpg);
+        background-position: 74.1564% 11.4365%;
+        opacity: 1;
+    }
+#ahri {
+    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/bltda668b66206f7f9e/60ee0b41cdb93c284ee3e936/Ahri_0.jpg);
+    background-position: 67.4897% 14.6444%;
+    opacity: 1;
+}
+#bardo {
+    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt6730694cadd3ce90/60ee0ba4aa9be3239e98d8e4/Bard_0.jpg);
+    background-position: 63.3745% 12.2734%;
+    opacity: 1;
+}
+ 
+#gnar {
+    background-image: url(https://images.contentstack.io/v3/assets/blt187521ff0727be24/blt257549813773c72c/60ee0dcd2f7fa122fd5749ad/Gnar_0.jpg);
+    background-position: 85.2675% 67.643%;
+    opacity: 1;
+}
