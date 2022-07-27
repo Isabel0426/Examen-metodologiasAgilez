@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="shortcut icon" href="./img/icono de pagina.png" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="estilos/estilos.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<title>LOGIN</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+ </head>
+
+<body style="background-color:black; color: aliceblue;">
+<header> 
+                              <nav class="navbar navbar-expand-lg bg-dark navbar-inverse " id="menu">
+                                
+                                <div class="container-fluid">
+                                  <a href="index.html" target="_blank"><img src="./img/lodo encima del video.png" clas="mg-fluid"style=" height: 50px; width: 60px; padding: bot5px;"></a>
+                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                  <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                                    <ul class="navbar-nav">
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="./index2.html" target="_blank">CAMPEONES</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="./index3.html">KDA</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="./login.html">REGISTRO</a>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          MÁS 
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                          <li><a class="dropdown-item" href="#">Descubre</a></li>
+                                          <li><a class="dropdown-item" href="#">Avatar</a></li>
+                                          <li><a class="dropdown-item" href="#">Comunidad</a></li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </nav>
+                            </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 id="usuario"></h1>
+          </div>
+        </div>
+      </div>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-5">
+
+                <form>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope"></i></span>
+                        <input id="email" type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill"></i></span>
+                        <input id="password" type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <button id="boton" type="submit" class="btn btn-primary w-100">Registrar</button>
+              
+                    <button id="boton2" type="button" class="btn btn-primary w-100 mt-3">Salir</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+   
+
+
+</main>
+
+
+
+
+
+
+
+<footer style="background-color: rgba(17, 17, 17, 0.959);">
+
+<section>
+<br>
+ <div class="container">
+<div class="row mt-1">
+<div class="col-5">
+                                                                  
+</div>
+<div class="col-5">
+                                                              
+<h9 style="color:white;">ÚNETE A NUESTRAS REDES SOCIALES</h9>
+<a href="https://github.com/Isabel0426" target="_blank"><img src="./img/github.png" id="imggit" ></a>
+                                                            
+<a href="https://www.linkedin.com/in/isa-lopez-bba059245/" target="_blank"><img src="./img/Linkedin.png" id="imggit" ></a>
+</div></div>
+</div>
+                                                            
+</section>
+<br>
+<section id="footer1">
+<br>
+<div>
+<h8 style="text-align:center;"> &copy;2022 Riot Games, Inc.ARCANE LEAGUE OF LEGUENS y cualquier logotipo asociado con las marcas registradas,<br>
+                              marcas de servicio o marcas comerciales de Riot Games, Inc. </h8>
+</div>
+ <br>
+</section>
+                                                            
+                                                            
+</footer>                                                                                                       
+<script src="./services/firebase.js" type="module"></script>            
+<script src="./services/registro.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+crossorigin="anonymous"></script>
+</body>
+</html>
