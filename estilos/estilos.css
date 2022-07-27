@@ -167,3 +167,9 @@ background-repeat: no-repeat;
     background-position: 85.2675% 67.643%;
     opacity: 1;
 }
+
+#bodylog {
+    background-image:url(https://w.wallhaven.cc/full/d5/wallhaven-d5j7vg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

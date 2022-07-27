@@ -1,7 +1,7 @@
-import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-auth.js"
+import { getAuth, createUserWithEmailAndPassword , signOut } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-auth.js"
 //getauth yo solamente voy a poder crear el usuario si solo si tengo permisos, sino no voy a poder
 let boton=document.getElementById("boton")
-
+let botonSalir=document.getElementById("boton2")
 //escucho click en el boton de registro
 boton.addEventListener("click", function(evento){
 
@@ -23,8 +23,7 @@ boton.addEventListener("click", function(evento){
                               const user = userCredential.user.email;
                               //antes del alert se imprime el objeto
                               console.log(userCredential)
-                              let usuario=document.getElementById("usuario")
-                              usuario.textContent="Bienvenido "+user
+                             
                               alert("exito en el registro, bienvenido")
                               window.location.href='./index3.html'
 
@@ -36,4 +35,14 @@ boton.addEventListener("click", function(evento){
                               // ..
                               });
 
+})
+botonSalir.addEventListener("click",function(){
+
+const auth = getAuth();
+signOut(auth).then(() => {
+// Sign-out successful.
+}).catch((error) => {
+// An error happened.
+});
+                              
 })
