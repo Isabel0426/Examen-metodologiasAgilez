@@ -4,14 +4,14 @@
 //LA URI DEL SERVICIO
 const URI='https://api.spotify.com/v1/artists/3YcBF2ttyueytpXtEzn1Za/top-tracks?market=US'
 
-const URI2='https://api.spotify.com/v1/artists/5VQCk9RiLwri99OgOT34kq/top-tracks?market=US'
+const URI2='https://api.spotify.com/v1/artists/4gOc8TsQed9eqnqJct2c5v/top-tracks?market=US'
 
 //2. A HACER QUE OME?
 //CONFIGURO LA PETICION
 const PETICION={
     method:'GET',
     headers:{
-        Authorization:'Bearer BQDTC9u02eFGI0EYO_eC0oK8GtS4IUtM0-Po1cwNSq4Tr1COD1JucxnETSgxgpJRe87QKp4nhbhTWqMYcyzbrjYoGJZjvHcsM4E0R003GVzA-khO5HQeobgzCyZN-DJINEXkKz8NReeCyW0Q3WKYDAkbE7Cr-8FcZd6JieoNRn_1mF5-qTk'
+        Authorization:'Bearer BQC1jy6bHtRTH1PuBuBB0r99LSEC3hOhK5UwJkH90f5lfgYixhwh2j84WOdi51Jew_GNUTPLsG7KRJgAL5RIXHFIA_GWeSQO9S7y7_9GzmAHm6txZsM8H6q-Tty4U0FiLA9vf_3B2N-uDjyXMZ1xbG9bo-OjyGFpqVKhLGcl6kaCCRGHZlyfHi3fJOWWtNG-RhM'
     }
 }
 

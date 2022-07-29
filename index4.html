@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Canvas</title>
+</head>
+<body style="background-color:black;">
+    <header >
+        <nav class="navbar navbar-expand-lg bg-dark navbar-inverse " id="menu">
+          
+          <div class="container-fluid">
+            <a href="index.html" ><img src="./img/lodo encima del video.png" clas="mg-fluid"style=" height: 50px; width: 60px; padding: bot5px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index2.html" target="_blank" >CAMPEONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index3.html" target="_blank">KDA</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./login.html" target="_blank">REGISTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">SALIR</a>
+                  </li>
+                  </ul>
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index2.html" target="_blank" id="usuario">USUARIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link invisible active" href="#" id="salir">SALIR</a>
+                      </li>
+                      </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+    <main>
+        <section>
+            <video src="./Video/banner1.webm" class="w-100" muted autoplay loop></video>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6" style=" color: #c4b998; letter-spacing: 7px; opacity:0.79;">
+                        <h1>BIENVENIDO <i class="bi bi-strava"></i></h1> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nemo eum repellendus quia, sunt blanditiis perspiciatis veniam sequi molestias, nulla nostrum vel repellat. Dolorum magnam beatae voluptatum nulla fugit modi?
+                    </div>
+                    <div class="col-12 col-md-6 align-self-center">
+                        <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            
+                            Ingresar <i class="bi bi-box-arrow-in-right"></i>
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </section>}
+
+        <section >
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style=" color: #c4b998; letter-spacing: 7px; opacity:0.79;">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">INGRESAR<i class="bi bi-strava"></i></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="background-color:black;" >
+                  <div> 
+                    
+                    <form >
+                        
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope" style=" color: #c4b998; letter-spacing: 7px; opacity:0.79;"> </i></span>
+                            <input id="emailLOGIN" type="text" class="form-control" placeholder="Login" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+    
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-key-fill" style=" color: #c4b998; letter-spacing: 7px; opacity:0.79;"></i></span>
+                            <input id="passwordLOGIN" type="Password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+    
+                        <button id="botonLOGIN" type="submit" class="btn btn-primary w-100">Ingresar</button>
+
+                    </form>
+                    <br>
+                         <img src="./img/KASIACARD.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="./services/firebase.js" type="module"></script>  
+    <script src="./services/observador.js" type="module"></script>
+    <script src="./services/loing.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+crossorigin="anonymous"></script>
+
+</body>
+</html>
